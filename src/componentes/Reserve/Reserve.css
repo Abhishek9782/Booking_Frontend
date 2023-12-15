@@ -1,0 +1,66 @@
+.rcontainer {
+  position: relative;
+  width: 100%;
+  padding: 30px;
+}
+.rReserve {
+  transition: all ease 0.5s;
+}
+.closeBtn {
+  position: absolute;
+  right: 5%;
+  top: 10px;
+  font-size: 23px;
+  cursor: pointer;
+  color: black;
+}
+.roomInfo > h3 {
+  text-align: center;
+}
+.hotelsBooked {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.cardmore {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+}
+.cardmore > img {
+  width: 20rem;
+  height: fit-content;
+}
+.roominfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+.roomsandprice {
+  margin-left: 30px;
+  display: grid;
+  grid-template-rows: auto auto;
+  height: 100%;
+  align-items: center;
+}
+.roomsandprice > .room > input {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
+.roomsandprice > .room {
+  display: flex;
+  align-items: center;
+}
+.roomsandprice > .room > label {
+  margin: 0px 12px;
+  font-weight: bold;
+}
+.buttons {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}

@@ -1,0 +1,56 @@
+.navbar {
+  height: 60px;
+  background-color: #003580;
+  display: flex;
+  justify-content: center;
+}
+.navContainer {
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  font-weight: 500;
+}
+.navItems > .navButton {
+  margin-left: 20px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  border: none;
+  color: #003580;
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+.registerButton:active {
+  padding: 7px 16px;
+}
+.loginButton:active {
+  padding: 7px 16px;
+}
+.link {
+  text-decoration: none;
+  color: #003580;
+}
+.navItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ifuserlogin {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ifuserlogin > button {
+  position: absolute;
+  right: 40px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}

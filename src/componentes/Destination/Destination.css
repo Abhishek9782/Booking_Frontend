@@ -1,0 +1,25 @@
+.destination {
+  width: 100%;
+  max-width: 1024px;
+}
+.place > h4 {
+  font-size: 18px;
+}
+.selectors {
+  margin: 10px 10px;
+}
+.selectors > button {
+  margin: 0px 10px;
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  cursor: pointer;
+}
+.selectors > .active {
+  padding: 15px;
+  border-radius: 20px;
+  background-color: rgb(210, 230, 236);
+  color: #003580;
+  border: 2px solid lightblue;
+}

@@ -1,0 +1,75 @@
+.discountbox {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  border: 1px solid lightblue;
+  padding: 20px;
+  margin: 25px 0px 0px 0px;
+  justify-content: space-evenly;
+}
+.discountImage {
+  width: 150px;
+  opacity: 0.9;
+}
+.discountdesc {
+  padding: 10px 25px;
+}
+.discountHeading {
+  font-size: 34px;
+  margin: 0px 0px 20px 0px;
+}
+.discountdesc > span {
+  font-weight: 500;
+  margin-left: 10px;
+}
+.discountdesc > .discountButton {
+  margin-left: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+}
+.discountSign {
+  padding: 10px 18px;
+  border-radius: none;
+  border: 1px solid #003580;
+  color: #003580;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #999;
+}
+.discountRegister {
+  margin-left: 10px;
+  padding: 10px 18px;
+  border-radius: none;
+  border: none;
+  color: #003580;
+  font-weight: 600;
+  cursor: pointer;
+}
+.Placeses {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px;
+  padding: 20px;
+}
+.placesesList {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+}
+.placesesItem {
+  display: flex;
+  justify-content: space-between;
+}
+.placesesItem > .place > h4 {
+  margin: 5px;
+  cursor: pointer;
+}
+.placesesItem > .place > h4:hover {
+  color: #003580;
+}
+.placesesItem > .place {
+  width: 100%;
+}
+.placesesItem > .place > span {
+  margin-left: 10px;
+}

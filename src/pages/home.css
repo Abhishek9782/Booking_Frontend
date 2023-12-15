@@ -1,0 +1,24 @@
+.homeContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.homeTitle {
+  font-size: 20px;
+  width: 1024px;
+  margin-top: -35px;
+  margin-left: 27px;
+  font-weight: bolder;
+}
+.homeguest {
+  margin: 0px 0px -10px 27px;
+}
+.Destinationtitle {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0px;
+  font-size: 24px;
+  margin-left: 27px;
+}
